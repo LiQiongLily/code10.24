@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Lily-PC",
+    "children" : [ {
+      "name" : "11260-MainThread",
+      "children" : [ {
+        "name" : "Test01.test03",
+        "uid" : "15b89193d06c9a60",
+        "parentUid" : "09b5ab4215077154053bb08a43f4cb86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571730727869,
+          "stop" : 1571730727870,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01.test01",
+        "uid" : "1134861bcec16b37",
+        "parentUid" : "09b5ab4215077154053bb08a43f4cb86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571730727842,
+          "stop" : 1571730727844,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01.test02",
+        "uid" : "72d9d7b5be417cd8",
+        "parentUid" : "09b5ab4215077154053bb08a43f4cb86",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571730727844,
+          "stop" : 1571730727869,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09b5ab4215077154053bb08a43f4cb86"
+    } ],
+    "uid" : "0ce682ba2efb965a13c74baf205a1412"
+  } ]
+}

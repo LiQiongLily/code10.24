@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","test01_allure.Test01.test03","1",""
+"passed","test01_allure.Test01.test01","2",""
+"failed","test01_allure.Test01.test02","25",""

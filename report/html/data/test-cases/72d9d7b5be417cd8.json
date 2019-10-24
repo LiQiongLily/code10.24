@@ -1,0 +1,66 @@
+{
+  "uid" : "72d9d7b5be417cd8",
+  "name" : "Test01.test02",
+  "fullName" : "test01_allure.Test01.test02",
+  "historyId" : "c1c095be01b9356393f2a4a373c15fd4",
+  "time" : {
+    "start" : 1571730727844,
+    "stop" : 1571730727869,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test01_allure.Test01 object at 0x000001A5BDBD4A90>\n\n    def test02(self):\n>       assert False\nE       assert False\n\nscripts\\test01_allure.py:6: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Lily-PC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11260-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test01_allure"
+  }, {
+    "name" : "testClass",
+    "value" : "test01_allure"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test02"
+  }, {
+    "name" : "package",
+    "value" : "test01_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "72d9d7b5be417cd8.json",
+  "parameterValues" : [ ]
+}

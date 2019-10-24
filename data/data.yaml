@@ -1,0 +1,19 @@
+#name: "张三"
+#浮点数
+#flag: 1.23456123456767778
+
+#布尔值
+#flag: null
+
+#日期
+#data: 2019-10-08 12:33:23
+
+name: 张三
+age: 19
+
+#锚点：引用键名指定的值，到其他键名的值使用
+#data: &user
+#  username: "lily"
+#value:
+#  password: "123456"
+#  <<: *user

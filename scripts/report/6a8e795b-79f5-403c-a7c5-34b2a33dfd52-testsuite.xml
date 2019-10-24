@@ -1,0 +1,40 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571728129086" stop="1571728129123">
+  <name>test01_allure</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571728129086" status="passed" stop="1571728129089">
+      <name>Test01.test01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4656-MainThread"/>
+        <label name="host" value="Lily-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571728129089" status="failed" stop="1571728129123">
+      <name>Test01.test02</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;test01_allure.Test01 object at 0x000001B7E88249E8&gt;
+
+    def test02(self):
+&gt;       assert False
+E       assert False
+
+test01_allure.py:6: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4656-MainThread"/>
+        <label name="host" value="Lily-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

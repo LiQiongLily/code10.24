@@ -1,0 +1,106 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571737576590" stop="1571737576625">
+  <description>
+ 用例优先级  级别：
+				1). blocker：有妨碍的
+				2). critical：紧要的
+				3). normal：一般
+				4). minor：次要
+				5). trivial：不重要
+			提示：以上级别使用时，必须大写！
+
+</description>
+  <name>test01_allure</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571737576590" status="passed" stop="1571737576592">
+      <name>Test01.test01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="29684-MainThread"/>
+        <label name="host" value="Lily-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571737576591" status="passed" stop="1571737576592">
+          <name>执行登录操作</name>
+          <title>执行登录操作</title>
+          <attachments>
+            <attachment source="750d1ef3-d1e1-47c3-8be9-2356eab76485-attachment.txt" title="失败原因：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571737576593" status="passed" stop="1571737576594">
+      <name>Test01.test02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="29684-MainThread"/>
+        <label name="host" value="Lily-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571737576594" status="passed" stop="1571737576594">
+          <name>退出登录</name>
+          <title>退出登录</title>
+          <attachments>
+            <attachment source="0ae17887-608b-4a32-8c00-46e12dd48b4a-attachment.txt" title="成功：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571737576595" status="failed" stop="1571737576622">
+      <name>Test01.test03</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;test01_allure.Test01 object at 0x000001BBED176128&gt;
+
+    @allure.step(title="登录")
+    def test03(self):
+        allure.attach("失败原因：", "断言失败")
+        print("test03 被执行")
+&gt;       assert False
+E       assert False
+
+scripts\test01_allure.py:36: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29684-MainThread"/>
+        <label name="host" value="Lily-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1571737576596" status="failed" stop="1571737576597">
+          <name>登录</name>
+          <title>登录</title>
+          <attachments>
+            <attachment source="2027c6e4-9f0e-407a-b6e8-7a5ac9eefab5-attachment.txt" title="失败原因：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1571737576624" status="passed" stop="1571737576625">
+      <name>Test01.test04</name>
+      <attachments>
+        <attachment source="5ce1c7f0-60e2-4a4d-b57a-2b326bce2bf3-attachment.jpg" title="失败截图" type="image/jpg"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="29684-MainThread"/>
+        <label name="host" value="Lily-PC"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
